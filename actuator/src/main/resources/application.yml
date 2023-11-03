@@ -1,6 +1,8 @@
 management:
-#  endpoint: # 활성화 여부 - 기본값 : 모두 활성화
-#    health:
+  endpoint: # 활성화 여부 - 기본값 : 모두 활성화
+    health:
+#      show-components: always
+      show-details: always
 #      enabled: true
 #    beans:
 #      enabled: false
