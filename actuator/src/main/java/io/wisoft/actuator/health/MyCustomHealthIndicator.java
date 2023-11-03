@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class MyCustomHealthIndicator implements HealthIndicator {
 
     @Override
-    public Health health() { // 입맛에 맞게 변경해서 사용하자
+    public Health health() { // /health에 데이터를 넣어줄 수 있음
 
         if (isStatusUp()) {
             return Health.up()
